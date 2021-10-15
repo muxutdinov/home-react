@@ -1,11 +1,11 @@
 import React from 'react'
-import  Hooks  from './Hooks'
-import  Old from './Old'
+// import  Hooks  from './Hooks'
+// import  Old from './Old'
+import MuviList from './MuviList'
 export const App = () => {
   return (
     <div>
-      {/* <Hooks/> */}
-      <Old/>
+     <MuviList/>
     </div>
   )
 }
